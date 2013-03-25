@@ -130,6 +130,11 @@ header li {
   height:40px;
 }
 
+header img {
+  border: 1px solid #cb4b16;
+  margin-bottom: 1em;
+}
+
 header ul a {
   line-height:1;
   font-size:11px;
