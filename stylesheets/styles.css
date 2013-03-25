@@ -35,14 +35,14 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#268bd2;
+  color:#cb4b16;
   font-weight:400;
   text-decoration:none;
 }
 
 a small {
   font-size:11px;
-  color:#268bd2;
+  color:#cb4b16;
   margin-top:-0.6em;
   display:block;
 }
@@ -133,7 +133,7 @@ header li {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#93a1a1;
+  color:#cb4b16;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -158,7 +158,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#fdf6e3;
+  color:#cb4b16;
 }
 
 section {
