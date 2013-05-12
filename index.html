@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
         <header>
-        <img src="https://secure.gravatar.com/avatar/d7cc50bf54e93eb5d2bc22a7585c322f?s=420">
+        <img src="https://secure.gravatar.com/avatar/d7cc50bf54e93eb5d2bc22a7585c322f?s=272">
         <h1>Sam J Sharpe</h1>
         <p></p>
 
@@ -75,6 +75,30 @@
         <p><small>Hosted on GitHub Pages</small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <script type="text/javascript">
+        var metas = document.getElementsByTagName('meta');
+        var i;
+        if (navigator.userAgent.match(/iPhone/i)) {
+              for (i=0; i<metas.length; i++) {
+                      if (metas[i].name == "viewport") {
+                                metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=#
+                                    }
+                                      }
+                                        document.addEventListener("gesturestart", gestureStart, false);
+                                    }
+                                    function gestureStart() {
+                                          for (i=0; i<metas.length; i++) {
+                                                  if (metas[i].name == "viewport") {
+                                                            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale#
+                                                                }
+                                                                  }
+                                                              }"
+                                                  }
+                                          }
+                                    }"
+                      }
+              }
+        }
+    </script>
   </body>
 </html>
