@@ -80,11 +80,12 @@ stronger as a result.
 - breadth of knowledge required to operate
 
 GOV.UK embraces the [DevOps](https://www.gov.uk/service-manual/operations/devops)
-model. The Developers of an application are actively involved in supporting that
-application in Production. While that means that the breadth of knowledge is still
-large, the depth of that knowledge is held within the application team who provide
-additional support. As an Operator, I need to understand roughly how it works, but
-for the detail I can defer to the experts.
+model. The Developers of an application are actively involved in [supporting that
+application in Production](https://github.com/alphagov/whitehall/pull/583). While
+that means that the breadth of knowledge is still large, the depth of that knowledge
+is held within the application team who provide additional support. As an Operator,
+I need to understand roughly how it works, but for the detail I can defer to the
+experts.
 
 - large number of pieces that can break
 
