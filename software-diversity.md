@@ -69,7 +69,7 @@ only one language of fitting the job to the patterns you already use, which may 
 be the best approach.
 
 At GDS we concentrate on hiring good developers who display a wide variety of skills.
-We do not have a bias for the people being masters of the tools we already use as
+We do not have a bias for the people being masters of the tools we already use, as
 a good developer who can already use more than one language should have no difficulty
 grasping another. We may also learn something new from them and the team will become
 stronger as a result.
