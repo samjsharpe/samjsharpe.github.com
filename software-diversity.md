@@ -125,9 +125,10 @@ systems. We aim to standardise on one version in the future, however we were ini
 cautious of deploying 12.04 which came out shortly before development of GOV.UK
 started.
 
-We also seek to standardise where it makes sense to do so. Prior to launch we supported
-two separate Search technologies, [Apache Solr](http://lucene.apache.org/solr/) and
-[ElasticSearch](http://www.elasticsearch.org/), each one doing roughly the same job. It
+If you are using two tools that are similar is make sense to standardise, because that
+reduces overall complexity and does not make the solving the problem more arduous. Prior 
+to launch we used two separate Search tools, [Apache Solr](http://lucene.apache.org/solr/) and
+[ElasticSearch](http://www.elasticsearch.org/); each one does roughly the same thing. It
 makes sense to standardise on one technology if you are using multiple equivalent ones
 and hence very shortly after launch, all of our applications were converted to using
 ElasticSearch.
