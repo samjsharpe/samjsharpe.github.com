@@ -1,8 +1,10 @@
 ## Diversity is a good thing
 
 After a talk by [Jordan](http://jordanh.net/) and [Tom](http://tom.loosemore.com/)
-at the [OpenTech 2013 Conference](http://www.opentech.org.uk/2013/) conference recently, I was asked if [the number of technologies we use](http://digital.cabinetoffice.gov.uk/govuk-launch-colophon/) scares us. I thought this 
-was an excellent question which leads to lots of interesting points about diversity which I would like to explore here.
+at the [OpenTech 2013 Conference](http://www.opentech.org.uk/2013/) conference recently,
+I was asked if [the number of technologies we use](http://digital.cabinetoffice.gov.uk/govuk-launch-colophon/)
+scares us. I thought this was an excellent question which leads to lots of interesting 
+points about diversity which I would like to explore here.
 
 GOV.UK is a diverse collection of individual applications and supporting services.
 We operate at least five different programming languages, three separate database
@@ -24,9 +26,10 @@ in everything we make.
 GOV.UK is designed as a set of modular applications that each fulfil a defined set
 of needs. The code which generates the [maternity pay
 calculator](https://www.gov.uk/calculate-your-maternity-pay) is completely different
-from the code to publish [information from government departments](https://www.gov.uk/government/). By having these independent pieces, we both make sure that the
-application is suitable for the job and also allow ourselves to scale by having
-different people or teams work on something independently.
+from the code to publish [information from government departments](https://www.gov.uk/government/).
+By having these independent pieces, we both make sure that the application is suitable
+for the job and also allow ourselves to scale by having different people or teams
+work on something independently.
 
 ### The advantages and challenges of code diversity
 
@@ -37,13 +40,17 @@ different people or teams work on something independently.
 Sometimes the best tool for a job is not the one you are currently using. My colleague
 [Nick Stenning](https://twitter.com/nickstenning) recently prototyped a
 [new router](https://github.com/nickstenning/router) to direct requests to the right
-applications in [Go](http://golang.org/) - yes, it could have been done in Ruby or 
-Python or another language we use elsewhere (we've created [a router in Scala](https://github.com/alphagov/router)), but Go is designed for massive concurrency which is a feature our router needs, the code also has fewer dependencies. Implementing something
-similar in one of those other languages would require many more lines of code (compare the Scale and Go versions); more lines of code is more chance of errors.
+applications in [Go](http://golang.org/) - yes, it could have been done in Ruby or
+Python or another language we use elsewhere (we've created [a router in Scala](https://github.com/alphagov/router)
+before), but Go is designed for massive concurrency which is a feature our router needs;
+the code also has fewer dependencies. Implementing something similar in one of those
+other languages would require many more lines of code (compare the Scala and Go versions);
+more lines of code is more chance of errors.
 
 - minimises the impact of issues in one tool causing a problem across the entire site
 
-We have patched some of our applications several times in the last few months due to vulnerabilities in the [Rails application framework](http://rubyonrails.org/). If
+We have patched some of our applications several times in the last few months due to
+vulnerabilities in the [Rails application framework](http://rubyonrails.org/). If
 every component application on GOV.UK was written in Rails, we would need to upgrade
 every single application each time a new vulnerability was discovered. It's true
 that using lots of frameworks means more possible bugs, but each one of those bugs
@@ -92,17 +99,18 @@ low.
 If a team chooses to implement something in a new tool, which none of them are
 familiar with, that might lead to poor quality code - some of that can be mitigated
 by preferring tools with which we have at least some familiarity. At GDS, we like
-[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and 
-[code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on 
+[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and
+[code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on
 something generally increases the quality and code review ensures that the output of
 the pair is understandable and maintainable by others. Once that piece of work has
-finished, the pair can split up and pair with two new people, meaning that the number 
+finished, the pair can split up and pair with two new people, meaning that the number
 of developers who are familiar with the code doubles quickly.
 
-We also practise [Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) where a developer first writes a piece of code that can be used to 
-test the new function. Initially this test will fail. Once the feature is developed, the
-test will pass and we can deploy that feature. As we keep running those tests, should 
-any future changes break that functionality, the team will be aware of the problem 
+We also practise [Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development),
+where a developer first writes a piece of code that can be used to test the new
+function. Initially this test will fail. Once the feature is developed, the test
+will pass and we can deploy that feature. As we keep running those tests, should
+any future changes break that functionality, the team will be aware of the problem
 and can correct it before new code is deployed.
 
 ### Standardisation is still important
@@ -119,7 +127,7 @@ started.
 We also seek to standardise where it makes sense to do so. Prior to launch we supported
 two separate Search technologies, [Apache Solr](http://lucene.apache.org/solr/) and
 [ElasticSearch](http://www.elasticsearch.org/), each one doing roughly the same job. It
-made sense to standardise on one technology if you are using multiple equivalent ones
+makes sense to standardise on one technology if you are using multiple equivalent ones
 and hence very shortly after launch, all of our applications were converted to using
 ElasticSearch.
 
