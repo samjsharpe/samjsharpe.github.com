@@ -38,18 +38,16 @@ Sometimes the best tool for a job is not the one you are currently using. My col
 [Nick Stenning](https://twitter.com/nickstenning) recently prototyped a
 [new router](https://github.com/nickstenning/router) to direct requests to the right
 applications in [Go](http://golang.org/) - yes, it could have been done in Ruby or 
-Python or another language we use elsewhere (we've done it in Scala before), but Go
-is designed for massive concurrency which is a feature our router needs. Implementing
-something similar in one of those other languages would require many more lines of code;
-more lines of code is more chance of errors.
+Python or another language we use elsewhere (we've created [a router in Scala](https://github.com/alphagov/router)), but Go is designed for massive concurrency which is a feature our router needs, the code also has fewer dependencies. Implementing something
+similar in one of those other languages would require many more lines of code (compare the Scale and Go versions); more lines of code is more chance of errors.
 
 - minimises the impact of issues in one tool causing a problem across the entire site
 
-If you look at the Rails framework recently you will see a number of critical security
-vulnerabilities. If every component application on GOV.UK was written in Rails, we
-would need to upgrade every single application each time a new vulnerability was
-discovered. It's true that using lots of frameworks means more possible bugs, but
-each one of those bugs would have a smaller risk to the site.
+We have patched some of our applications several times in the last few months due to vulnerabilities in the [Rails application framework](http://rubyonrails.org/). If
+every component application on GOV.UK was written in Rails, we would need to upgrade
+every single application each time a new vulnerability was discovered. It's true
+that using lots of frameworks means more possible bugs, but each one of those bugs
+would have a smaller risk to the site.
 
 - encourages a wide variety of contributions and skills
 
@@ -97,7 +95,15 @@ by preferring tools with which we have at least some familiarity. At GDS, we lik
 [Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and 
 [code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on 
 something generally increases the quality and code review ensures that the output of
-the pair is understandable and maintainable by others.
+the pair is understandable and maintainable by others. Once that piece of work has
+finished, the pair can split up and pair with two new people, meaning that the number 
+of developers who are familiar with the code doubles quickly.
+
+We also practise [Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) where a developer first writes a piece of code that can be used to 
+test the new function. Initially this test will fail. Once the feature is developed, the
+test will pass and we can deploy that feature. As we keep running those tests, should 
+any future changes break that functionality, the team will be aware of the problem 
+and can correct it before new code is deployed.
 
 ### Standardisation is still important
 
@@ -106,7 +112,9 @@ standardise we should, because that reduces complexity. For example, GOV.UK may 
 composed of two operating system versions (Ubuntu Linux versions 10.04 and 12.04),
 but they are broadly similar and hence knowledge can be transferred. That's
 completely different to having a platform composed of two disparate operating
-systems.
+systems. We aim to standardise on one version in the future, however we were initially
+cautious of deploying 12.04 which came out shortly before development of GOV.UK
+started.
 
 We also seek to standardise where it makes sense to do so. Prior to launch we supported
 two separate Search technologies, [Apache Solr](http://lucene.apache.org/solr/) and
