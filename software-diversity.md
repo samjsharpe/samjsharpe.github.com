@@ -1,17 +1,8 @@
 ## Diversity is a good thing
 
-At the [OpenTech 2013](http://www.opentech.org.uk/2013/) conference recently, after
-a talk by my colleagues [Jordan Hatch](http://jordanh.net/) and [Tom 
-Loosemore](http://tom.loosemore.com/), someone asked a question "I've read 
-[the GOV.UK colophon](http://digital.cabinetoffice.gov.uk/govuk-launch-colophon/)
-and seen the number of technologies you used, don't you find that scary?" which
-is an excellent question and leads to lots of interesting points about diversity.
-
-I am not a developer, I don't write the code behind the applications that form
-part of GOV.UK, but as a member of the Infrastructure team, I do have a lot of
-input into the day-to-day running of the website and Tom and Jordan were kind
-enough to let me answer the question at the time, which now forms the basis of
-this blog post.
+After a talk by [Jordan](http://jordanh.net/) and [Tom](http://tom.loosemore.com/)
+at the [OpenTech 2013 Conference](http://www.opentech.org.uk/2013/) conference recently, I was asked if [the number of technologies we use](http://digital.cabinetoffice.gov.uk/govuk-launch-colophon/) scares us. I thought this 
+was an excellent question which leads to lots of interesting points about diversity which I would like to explore here.
 
 GOV.UK is a diverse collection of individual applications and supporting services.
 We operate at least five different programming languages, three separate database
@@ -33,7 +24,7 @@ in everything we make.
 GOV.UK is designed as a set of modular applications that each fulfil a defined set
 of needs. The code which generates the [maternity pay
 calculator](https://www.gov.uk/calculate-your-maternity-pay) is completely different
-from the code to publish [information from government departments](https://www.gov.uk/government/). By having these independent pieces, we both make sure that the 
+from the code to publish [information from government departments](https://www.gov.uk/government/). By having these independent pieces, we both make sure that the
 application is suitable for the job and also allow ourselves to scale by having
 different people or teams work on something independently.
 
@@ -44,14 +35,15 @@ different people or teams work on something independently.
 - using the best tool for the job
 
 Sometimes the best tool for a job is not the one you are currently using. My colleague
-[Nick Stenning](https://twitter.com/nickstenning) recently prototyped a [new router](https://github.com/nickstenning/router) to direct requests to the right applications in
-[Go](http://golang.org/) - yes, it could have been done in Ruby or Python or another
-language we use elsewhere (we've done it in Scala before), but Go is designed for
-massive concurrency which is a feature our router needs. Implementing something similar
-in one of those other languages would require many more lines of code; more lines
-of code is more chance of errors.
+[Nick Stenning](https://twitter.com/nickstenning) recently prototyped a
+[new router](https://github.com/nickstenning/router) to direct requests to the right
+applications in [Go](http://golang.org/) - yes, it could have been done in Ruby or 
+Python or another language we use elsewhere (we've done it in Scala before), but Go
+is designed for massive concurrency which is a feature our router needs. Implementing
+something similar in one of those other languages would require many more lines of code;
+more lines of code is more chance of errors.
 
-- minimise the impact of issues in one tool causing a problem across the entire site
+- minimises the impact of issues in one tool causing a problem across the entire site
 
 If you look at the Rails framework recently you will see a number of critical security
 vulnerabilities. If every component application on GOV.UK was written in Rails, we
@@ -59,15 +51,24 @@ would need to upgrade every single application each time a new vulnerability was
 discovered. It's true that using lots of frameworks means more possible bugs, but
 each one of those bugs would have a smaller risk to the site.
 
-- encourage a wide variety of contributions
+- encourages a wide variety of contributions and skills
 
 Not everyone is a Ruby developer. We have many excellent developers in GDS, many
 of whom do not write Ruby as their first language. If we only made applications in
 Ruby, we'd only need to recruit people who know Ruby, but we would be missing out
-on a huge range of programming talent. Each one of our products recruits the best
-people we can find and then uses the tools which they are familiar with to solve
-the needs that have been identified. We've got some smashing Perl, some Scala, some
-Ruby and some Python. As a Python guy, I'm OK with this.
+on a huge range of programming talent.
+
+Often developers who are comfortable in more than one language are more creative,
+choosing the right tool and code pattern for the job. There is a tendency if you know
+only one language of fitting the job to the patterns you already use, which may not
+be the best approach.
+
+At GDS we concentrate on hiring good developers who display a wide variety of skills.
+We do not have a bias for the people being masters of the tools we already use as
+a good developer who can already use more than one language should have no difficulty
+grasping another. We may also learn something new from them and the team will become
+stronger as a result.
+
 
 #### Challenges and how to mitigate them
 
@@ -93,9 +94,10 @@ low.
 If a team chooses to implement something in a new tool, which none of them are
 familiar with, that might lead to poor quality code - some of that can be mitigated
 by preferring tools with which we have at least some familiarity. At GDS, we like
-[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and [code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on something generally
-increases the quality and code review ensures that the output of the pair is
-understandable and maintainable by others.
+[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and 
+[code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on 
+something generally increases the quality and code review ensures that the output of
+the pair is understandable and maintainable by others.
 
 ### Standardisation is still important
 
