@@ -98,21 +98,17 @@ low.
 - unfamiliarity with tools leading to poor quality
 
 If a team chooses to implement something in a new tool, which none of them are
-familiar with, that might lead to poor quality code - some of that can be mitigated
-by preferring tools with which we have at least some familiarity. At GDS, we like
-[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) and
-[code reviews](http://en.wikipedia.org/wiki/Code_review) - two people collaborating on
-something generally increases the quality and code review ensures that the output of
-the pair is understandable and maintainable by others. Once that piece of work has
+familiar with, that might lead to poor quality code. At GDS, we like
+[Pair Programming](http://en.wikipedia.org/wiki/Pair_programming) - two people
+collaborating on something generally increases the quality and can allow those
+with more familiarity to teach those new to a tool. Once that piece of work has
 finished, the pair can split up and pair with two new people, meaning that the number
 of developers who are familiar with the code doubles quickly.
 
-We also practise [Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development),
-where a developer first writes a piece of code that can be used to test the new
-function. Initially this test will fail. Once the feature is developed, the test
-will pass and we can deploy that feature. As we keep running those tests, should
-any future changes break that functionality, the team will be aware of the problem
-and can correct it before new code is deployed.
+We also use other quality practices, for example [code reviews](http://en.wikipedia.org/wiki/Code_review)
+which ensure the output of the pair is understandable and maintainable by others,
+and [Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development), to
+confirm our code works and to build up a regression test suite over time.
 
 ### Standardisation is still important
 
