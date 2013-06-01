@@ -14,7 +14,7 @@ many things are related to the problem.
 
 ### If all you have is a hammer, everything looks like a nail
 
-The reason we operate such a diverse ecosystem, is that we are focused on solving
+The reason we operate such a diverse ecosystem is that we are focused on solving
 real problems. Our first task is to understand the problem or need we are solving
 and then to choose the best tool for the job. If we restrict ourselves to moulding
 the need to the tools we already have, then we risk not solving the initial problem
