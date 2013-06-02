@@ -58,11 +58,6 @@ would have a smaller risk to the site.
 
 - encourages a wide variety of contributions and skills
 
-Not everyone is a Ruby developer. We have many excellent developers in GDS, many
-of whom do not write Ruby as their first language. If we only made applications in
-Ruby, we'd only need to recruit people who know Ruby, but we would be missing out
-on a huge range of programming talent.
-
 Often developers who are comfortable in more than one language are more creative,
 choosing the right tool and code pattern for the job. There is a tendency if you know
 only one language of fitting the job to the patterns you already use, which may not
@@ -112,24 +107,19 @@ confirm our code works and to build up a regression test suite over time.
 
 ### Standardisation is still important
 
-This is not to say that software standards have no place. Where it is sensible to
-standardise we should, because that reduces complexity. For example, GOV.UK may be
-composed of two operating system versions (Ubuntu Linux versions 10.04 and 12.04),
-but they are broadly similar and hence knowledge can be transferred. That's
-completely different to having a platform composed of two disparate operating
-systems. We aim to standardise on one version in the future, however we were initially
-cautious of deploying 12.04 which came out shortly before development of GOV.UK
-started.
+Prior to launch we used two separate Search tools, [Apache Solr](http://lucene.apache.org/solr/)
+and [ElasticSearch](http://www.elasticsearch.org/); each one does roughly the same job and the
+effort to convert applications to use either of them is relatively low. For that reason we
+standardised to reduce complexity - shortly after launch, all of our applications were
+converted to use ElasticSearch.
 
-If you are using two tools that are similar is make sense to standardise, because that
-reduces overall complexity and does not make the solving the problem more arduous. Prior 
-to launch we used two separate Search tools, [Apache Solr](http://lucene.apache.org/solr/) and
-[ElasticSearch](http://www.elasticsearch.org/); each one does roughly the same thing. It
-makes sense to standardise on one technology if you are using multiple equivalent ones
-and hence very shortly after launch, all of our applications were converted to using
-ElasticSearch.
+Imposing loose standards can sometimes reduce the support burden. We use Ubuntu Linux, but the
+version (10.04 LTS) we were using prior to launch does not easily allow running some more recent
+software applications we needed. We made a decision to install a more recent version
+of Ubuntu Linux (12.04 LTS) on some of our machines, rather than pick a completely different
+distribution of Linux, so that tools and knowledge could be shared.
 
 ### So is it scary?
 
-Yes, diversity can be scary, but sometimes scary things make us better. If you like
-diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/)
+Yes, software diversity can be scary, but sometimes scary things make us better. If you like
+software diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/)
