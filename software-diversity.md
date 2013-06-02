@@ -123,3 +123,8 @@ distribution of Linux, so that tools and knowledge could be shared.
 
 Yes, software diversity can be scary, but sometimes scary things make us better. If you like
 software diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/)
+
+------
+Sam Sharpe is an Operations Engineer at GDS, working within our Hosting and Infrastructure Team. 
+This post was contributed to by others - see the [change history](https://github.com/samjsharpe/samjsharpe.github.com/commits/master/software-diversity.md)
+for more details.
