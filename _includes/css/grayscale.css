@@ -30,14 +30,22 @@ h6 {
     letter-spacing: 1px;
 }
 
-p, ul {
+p, section ul, section ol {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
 
+blockquote {
+    border-width: 1px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-color: rgb(102, 204, 255);
+    background-color: rgba(102, 204, 255, 0.1);
+}
+
 @media(min-width:767px) {
-    p, ul {
+    p, section ul, section ol {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
