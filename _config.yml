@@ -1,7 +1,8 @@
 # Site settings
 title: Sam J Sharpe
 email: sam@samsharpe.net
-url: https://www.samsharpe.net
+url: http://www.samsharpe.net
+baseurl: http://www.samsharpe.net
 description: "Dog Lover, Imperfect Husband, IT Architect and Linux Engineer in London, UK"
 
 # Color settings (hex-codes without the leading hash-tag)
