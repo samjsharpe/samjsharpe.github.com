@@ -19,7 +19,7 @@ modify the data. Why don't we? If we did, how would you know? Have we already do
 Imagine awarding yourself a quiet 10% payrise!
 
 The answer is the same, whether you are talking about the inner workings of a multi-million
-pound ~~Business~~ College or the results of a democratic election. Because it's not worth
+pound business (like Imperial College) or the results of a democratic election. Because it's not worth
 getting caught.
 
 I wouldn't like to comment on the actual possibility of being caught, because it would of
