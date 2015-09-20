@@ -6,8 +6,8 @@ description: "Dog Lover, Imperfect Husband, IT Architect and Linux Engineer in L
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#757575'
-  links: '#b32121'
+  primary-dark: '#3D3D3D'
+  links: '#C32121'
 
 # Footer settings
 footer: Sam J Sharpe
