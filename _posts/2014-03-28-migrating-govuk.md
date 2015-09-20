@@ -28,7 +28,7 @@ migration.
 
 My first rule of planning is:
 
-    No battle plan survives contact with the enemy - Helmuth von Moltke
+> No battle plan survives contact with the enemy - Helmuth von Moltke
 
 Given that it would take a disproportional amount of work to create a comprehensive plan that would cover
 every possible eventuality of a fast moving environment like ours, we decided to:

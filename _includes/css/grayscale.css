@@ -30,14 +30,14 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, ul {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
-    p {
+    p, ul {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
@@ -265,6 +265,11 @@ a:focus {
     -o-background-size: cover;
 }
 
+#about hr {
+    color: rgba(255,255,255,.3);
+    border-top-color: rgba(255,255,255,.3);
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -336,7 +341,8 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,.3);
 }
 
 footer p {
