@@ -2,8 +2,6 @@
 layout: post
 title: One Chat to Rule Them All
 ---
-## Reducing the number of chat clients reduces distractions
-
 If like me, you are a child of the internet generation, you've probably found that you have multiple
 types of "chat" or social media on which people regularly interact with you. This article talks about
 how you may be able to reduce this to manageable number, using ZNC and Bitlbee.
