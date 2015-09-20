@@ -47,26 +47,32 @@ computers and 4 screens… excellent!
 
 vncconnect:
 
+```bash
     #!/bin/bash
     EXIT=1
     while [ $EXIT != 0 ]; do
      x2vnc -passwdfile ~/.vncpass -west ccsjslin:0 2>&1 >/dev/null
      EXIT=$?
     done
+```
 
 vncconnect2:
 
+```bash
     #!/bin/bash
     EXIT=1
     while [ $EXIT != 0 ]; do
      x2vnc -passwdfile ~/.vncpass -east ccsjsmac:0 2>&1 >/dev/null
      EXIT=$?
     done
+```
 
 condesk:
 
+```bash
     #!/bin/bash
     ~/.bin/vncconnect&
     ~/.bin/vncconnect2&
+```
 
 Magic innit?
