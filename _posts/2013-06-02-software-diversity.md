@@ -124,4 +124,4 @@ distribution of Linux, so that tools and knowledge could be shared.
 ### So is it scary?
 
 Yes, software diversity can be scary, but sometimes scary things make us better. If you like
-software diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/
+software diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/)
