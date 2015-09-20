@@ -26,3 +26,4 @@ social:
 # Build settings
 markdown: redcarpet
 permalink: pretty
+highlighter: pygments
