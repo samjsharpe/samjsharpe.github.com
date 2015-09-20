@@ -1,0 +1,28 @@
+# Site settings
+title: Sam J Sharpe
+email: sam@samsharpe.net
+url: https://www.samsharpe.net
+description: "Dog Lover, Imperfect Husband, IT Architect and Linux Engineer in London, UK"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#b32121'
+
+# Footer settings
+footer: Sam J Sharpe
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SamJSharpe
+  - title: facebook
+    url: https://www.facebook.com/samsharpe
+  - title: linkedin
+    url: https://www.linkedin.com/in/samsharpe
+  - title: github
+    url: https://github.com/SamJSharpe
+
+# Build settings
+markdown: kramdown
+permalink: pretty
