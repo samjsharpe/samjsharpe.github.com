@@ -125,3 +125,6 @@ distribution of Linux, so that tools and knowledge could be shared.
 
 Yes, software diversity can be scary, but sometimes scary things make us better. If you like
 software diversity, [maybe you should work for GDS!](http://digital.cabinetoffice.gov.uk/jobs/)
+
+----
+This was originally posted in the [GDS Blog](https://gds.blog.gov.uk/2013/06/03/benefits-of-diversity/)
