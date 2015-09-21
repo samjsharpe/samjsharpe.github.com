@@ -27,3 +27,6 @@ social:
 markdown: redcarpet
 permalink: pretty
 highlighter: pygments
+
+gems:
+  - jekyll-feed
