@@ -2,6 +2,9 @@
 layout: post
 title: So, you think you don't drink too much?
 ---
+> I started this post in September 2015, but at the time some events in Paris took over and I didn't
+> think that the world needed more noise on the internet, so I didn't hit publish. I'm doing that now.
+
 Alcoholism, the dirty secret I don't want to talk about, how I discovered it and what I did next...
 
 I once asked myself the question "does anyone else think you drink too much". The date was 16th November 2013. Some
