@@ -23,9 +23,8 @@ social:
   - title: github
     url: https://github.com/SamJSharpe
 
-# Build settings§
+# Build settings
 permalink: pretty
-highlighter: pygments
 
 gems:
   - jekyll-feed
