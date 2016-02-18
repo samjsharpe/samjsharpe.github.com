@@ -23,8 +23,7 @@ social:
   - title: github
     url: https://github.com/SamJSharpe
 
-# Build settings
-markdown: redcarpet
+# Build settings§
 permalink: pretty
 highlighter: pygments
 
