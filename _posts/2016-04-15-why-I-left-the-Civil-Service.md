@@ -2,8 +2,6 @@
 layout: post
 title: Why I left GDS
 ---
-# Why I left GDS
-
 In which I explain the many and varied reasons why I decided that my life would
 be happier outside of the Government Digital Service after 3+ years service.
 
