@@ -120,7 +120,9 @@ each year does grate a bit.
 
 The civil service employs a box-ranking scheme where it expects you to be marked
 against the Civil Service Competency Framework (which is entirely keyed to
-generalists) and put into a box of basically doing great, doing OK and doing badly.
+generalists) and put into a box of basically doing great, doing OK and doing badly
+and they _expect_ a certain percentage of people to be in each box, so you can't
+all be doing great.
 
 Pretty much every major organisation which did this (Yahoo, Microsoft) at any 
 point had ditched the practise long before I joined the Civil Service. It's an
