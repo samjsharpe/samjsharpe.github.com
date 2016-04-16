@@ -67,8 +67,9 @@ always something that needs to be done and ofter refactoring was secondary to
 new features. Bad choices were made for reasons of expediency and never
 revisited, because there was always a new feature needed.
 
-I also don't like some features which are seen as mandatory in some Agile
-circles (I don't believe the Agile manifesto mandates them)
+I also don't like some features which are seem to be common in some "Agile"
+circles, but have little to do with being Agile. (I don't believe the [Agile 
+manifesto](http://agilemanifesto.org) mandates them)
 
  - I hate hotdesking, because you are never comfortable
  - I hate bench-style rows of desks, because they don't let you get comfortable
