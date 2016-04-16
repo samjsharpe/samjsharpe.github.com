@@ -68,7 +68,7 @@ always something that needs to be done and often refactoring was secondary to
 new features. Bad choices were made for reasons of expediency and never
 revisited, because there was always a new feature needed.
 
-I also don't like some features which are seem to be common in some "Agile"
+I also don't like some features which seem to be common in some "Agile"
 circles, but have little to do with being Agile. (I don't believe the [Agile
  Manifesto](http://agilemanifesto.org) mandates them)
 
