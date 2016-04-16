@@ -24,7 +24,7 @@ I believe the idea of GDS is sound. The UK Civil Service has suffered in many
 areas, over many decades, from the belief that specialism is something to be
 contracted out in the vain hope that private industry will supply the skills and
 knowledge needed and act in the best interests of the Country. That's laudable,
-but quite frankly bollocks. (TRIGGER WARNING: I might swear again, sorry mum)
+but quite frankly bollocks. (I might swear again, sorry mum)
 
 Private industry exists to make money. Pretty much the only benefit it brings to
 anyone working in the Civil Service is the outsourcing of risk. In-sourcing
