@@ -53,7 +53,8 @@ ill-fated Rural Payment Agency project, where we tried to digitize the process
 of applying for subsidies by farmers (historically not particularly digital
 people). I think enough has been written about that project that I won't bore
 you, but without exception the people were great, the aim was high, it just
-lacked a little on the execution side and scope creep killed it.
+lacked a little on the execution side from the Rural Payments Agency (historically
+not a particularly digital organisation) and the scope creep killed it.
 
 When GDS disengaged from that project, I then started on the Alpha of GOV.UK Pay
 which was fantastic, as I was a team of one, we were going to deploy on AWS and
