@@ -36,19 +36,19 @@ service.
 
 ## 1. Background - What I did for GDS
 
-I used to be a "Web Operations" for GDS. That title is probably the worst
-thought job title anyone has ever created. It's vaguely describes a practice
+I used to be a "Web Operations" for GDS. That is probably the worst thought
+out job title anyone has ever created. It vaguely describes a practice
 area within the more general field of systems engineering or administration, but
-when you try to apply that to a person, it's an ineffective job title, rubbish
+when you try to apply that to a person, it's an ineffective job title, a rubbish
 description of what they do and leads to awful phrases like "I need a WebOps".
 
-I was technically employee number 2 in the Web Operations Team on GOV.UK,
-starting a few days before Carl Massa, with a decade of system administration 
-experience, some exposure to "Cloud", but not much practical experience of 
-Configuration Management (puppet) - but we managed to get by, we deployed a 
-thing called GOV.UK with the help of some talented consultants and friends.
+I was technically employee number 2 in the Web Operations Team on GOV.UK, with
+a decade of system administration experience, some exposure to "Cloud", but
+not much practical experience of Configuration Management (puppet) - but we
+managed to get by, we deployed a thing called GOV.UK with the help of some
+talented consultants and friends and I'm quite proud of it.
 
-After a couple of years, I needed something different so I helped out with the 
+After a couple of years, I needed something different so I helped out with the
 ill-fated Rural Payment Agency project, where we tried to digitize the process
 of applying for subsidies by farmers (historically not particularly digital
 people). I think enough has been written about that project that I won't bore
@@ -56,20 +56,20 @@ you, but without exception the people were great, the aim was high, it just
 lacked a little on the execution side and scope creep killed it.
 
 When GDS disengaged from that project, I then started on the Alpha of GOV.UK Pay
-which was fantastic, as I was a team of one, we were going to deploy on AWS and 
+which was fantastic, as I was a team of one, we were going to deploy on AWS and
 I could choose all the tooling, so I got a chance to use Ansible. Lovely team,
 great project, but by that time my heart wasn't in it any more.
 
 ## 2. The startup culture
 
 The "startup culture" under which GDS operates is pretty punishing. There is
-always something that needs to be done and ofter refactoring was secondary to 
+always something that needs to be done and ofter refactoring was secondary to
 new features. Bad choices were made for reasons of expediency and never
 revisited, because there was always a new feature needed.
 
 I also don't like some features which are seem to be common in some "Agile"
-circles, but have little to do with being Agile. (I don't believe the [Agile 
-manifesto](http://agilemanifesto.org) mandates them)
+circles, but have little to do with being Agile. (I don't believe the [Agile
+ Manifesto](http://agilemanifesto.org) mandates them)
 
  - I hate hotdesking, because you are never comfortable
  - I hate bench-style rows of desks, because they don't let you get comfortable
@@ -86,8 +86,8 @@ of which have overlapping feature sets.
 
 I'm a big fan of [Dan McKinley's "Choose Boring Technology" article](http://mcfunley.com/choose-boring-technology)
 and in it he discusses the merits of "optimizing globally" - if you can make do
-with a technology you have, even if the alternative is better in some way you 
-should - and if you absolutely have to swap, you should do it quickly, cleanly 
+with a technology you have, even if the alternative is better in some way you
+should - and if you absolutely have to swap, you should do it quickly, cleanly
 and globally. We didn't.
 
 ## 3. Pay and progression in the Civil Service sucks
@@ -99,7 +99,7 @@ any rises I would forego for the next three years.
 
 To match industry salaries, everyone in GDS has an inflated "grade". It's not the
 only department in this situation (MHRA has a similar problem), but it does lead
-to some oddities. If you enter the Civil Service on a high salary, you're 
+to some oddities. If you enter the Civil Service on a high salary, you're
 effectively screwed for pay rises.
 
 To give an example:
@@ -110,7 +110,7 @@ To give an example:
  - Your total salary is £78,000
 
 Civil Service Pay Rises are currently capped at "1% of the mid-point of the band"
-which means that before tax, your pay rise is about £500/yr or 0.6% - which is 
+which means that before tax, your pay rise is about £500/yr or 0.6% - which is
 a less than inflation, so in real terms your pay drops every year.
 
 I'm entirely aware that this (completely fictional) example is a stonking salary
@@ -125,9 +125,9 @@ generalists) and put into a box of basically doing great, doing OK and doing bad
 and they _expect_ a certain percentage of people to be in each box, so you can't
 all be doing great.
 
-Pretty much every major organisation which did this (Yahoo, Microsoft) at any 
+Pretty much every major organisation which did this (Yahoo, Microsoft) at any
 point had ditched the practise long before I joined the Civil Service. It's an
-utterly crap and majorly demotivating way to manage people. It should die, in a
+utterly crap and massively demotivating way to manage people. It should die, in a
 fire. It's being widely trashed (search for "Stack Ranking") and the Civil
 Service should abandon it and stop trying to measure 400,000 people against the
 same scale - it just doesn't work.
@@ -135,7 +135,7 @@ same scale - it just doesn't work.
 ## 5. Conclusion
 
 I hope this hasn't put you off joining the Civil Service. It's a great place to
-work for a while. All the people are lovely. 
+work for a while. All the people are lovely.
 
-It's just the organisation that needs to change before I will go back. I'm sure 
+It's just the organisation that needs to change before I will go back. I'm sure
 it will and I'm sure I will, I just can't say when.
