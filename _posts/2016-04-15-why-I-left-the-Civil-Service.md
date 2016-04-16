@@ -64,7 +64,7 @@ great project, but by that time my heart wasn't in it any more.
 ## 2. The startup culture
 
 The "startup culture" under which GDS operates is pretty punishing. There is
-always something that needs to be done and ofter refactoring was secondary to
+always something that needs to be done and often refactoring was secondary to
 new features. Bad choices were made for reasons of expediency and never
 revisited, because there was always a new feature needed.
 
