@@ -26,6 +26,7 @@ social:
 
 # Build settings
 permalink: pretty
+include: [".well-known"]
 
 gems:
   - jekyll-feed
