@@ -1,7 +1,7 @@
 # Site settings
 title: Sam J Sharpe
 url: http://www.samsharpe.net
-description: "Dog Lover, Imperfect Husband, IT Architect and Linux Engineer in London, UK"
+description: "Dog Lover, Imperfect Husband, Cloud Architect and Linux Engineer in London, UK"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -28,5 +28,5 @@ social:
 permalink: pretty
 include: [".well-known"]
 
-gems:
+plugins:
   - jekyll-feed
