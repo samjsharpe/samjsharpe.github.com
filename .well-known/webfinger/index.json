@@ -1,24 +1,24 @@
 {
     "subject": "acct:sam@samsharpe.net",
     "aliases": [
-        "https://mastodon.social/@SamJSharpe",
-        "https://mastodon.social/users/SamJSharpe",
+        "https://mastodon.me.uk/@SamJSharpe",
+        "https://mastodon.me.uk/users/SamJSharpe",
         "sam@samsharpe.net"
     ],
     "links": [
         {
             "rel": "http://webfinger.net/rel/profile-page",
             "type": "text/html",
-            "href": "https://mastodon.social/@SamJSharpe"
+            "href": "https://mastodon.me.uk/@SamJSharpe"
         },
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://mastodon.social/users/SamJSharpe"
+            "href": "https://mastodon.me.uk/users/SamJSharpe"
         },
         {
             "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://fosstodon.org/authorize_interaction?uri={uri}"
+            "template": "https://mastodon.me.uk/authorize_interaction?uri={uri}"
         }
     ]
 }
